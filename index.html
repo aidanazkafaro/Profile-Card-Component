@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <!-- Bootstrap v5 link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    
+  <!-- css link -->
+  <link rel="stylesheet" href="css/styles.css">    
+
+  <title>Frontend Mentor | Profile card component</title>
+
+  <!-- Fonts -->
+  <!-- Kumbh Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    
+  </style>
+</head>
+
+<body>
+
+  <!-- optional javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+  <!-- Card -->
+  <div class="card" style="width: 22rem;">
+
+    <div class="bg-image">
+      <img src="images\bg-pattern-card.svg" class="card-img-top" alt="card-img-top">
+    </div>
+
+    <div class="card-image" style="position: relative; bottom: 55px;">
+      <img class="profile-image" src="images\image-victor.jpg" alt="profile-image">
+    </div>
+
+    <div class="card-body">
+      <h4 class="card-title">Victor Crest <span class="age">26</span></h4>
+      <p class="card-text">London</p>
+    </div>
+
+    <hr style="color: hsl(227, 10%, 46%);">
+
+    <div class="container">
+      <div class="row" style="text-align: center;">
+        <div class="col-4">
+          <h3>80k</h3>
+          <p>Followers</p>
+        </div>
+        <div class="col-4">
+          <h3>803k</h3>
+          <p>Likes</p>
+        </div>
+        <div class="col-4">
+          <h3>1.4k</h3>
+          <p>Photos</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Aidan Azkafaro Deson</a>.
+  </div>
+
+  <!-- Background Pattern -->
+  <!-- Pattern Bottom -->
+  <img src="images/bg-pattern-bottom.svg" alt="bg-pattern-bottom" style="z-index: -1; position: absolute; top: 300px;left: 800px;">
+   <!-- Pattern Top -->
+   <img src="images/bg-pattern-top.svg" alt="bg-pattern-bottom" style="z-index: -1; position: absolute; bottom: 300px;right: 800px;">
+</body>
+</html>

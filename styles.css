@@ -1,0 +1,90 @@
+body{
+    background-color: hsl(185, 75%, 39%);
+    padding: 0;
+    overflow: hidden;
+}
+
+/* The card  */
+
+.card{
+    border-radius: 5%;
+    overflow: hidden;
+    border: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Image inside the card */
+.bg-image{
+    max-width: 100%;
+    height: auto;
+}
+
+.card-image{
+    margin: 0 auto;
+    /* position: relative;
+    top: -50px; */
+}
+.profile-image{
+    border-radius: 100%;
+    z-index: 1;
+    
+    border: 5px solid #fff;
+}
+
+/* Card's content */
+
+.card-body{
+    text-align: center;
+    margin-top: -55px;
+    margin-bottom: -15px;
+
+}
+
+/* Profile */
+
+.card-title{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    
+}
+
+.age{
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+    margin-left: 5px;
+}
+h3{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px; 
+}
+
+p{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 12px; 
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+/* Card's data */
+
+.container{
+    margin-top: 10px;
+}
+
+/* override bootstrap class */
+.row{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.attribution{
+    position: absolute;
+    bottom: 10px; 
+    width: 100%;
+}
